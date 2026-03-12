@@ -66,19 +66,13 @@ Experience across multiple product and technology domains.
 * containerized model deployment validation
 * Kubernetes-based model serving verification
 
-### AR / VR & 3D Applications
+### Computer Vision & 3D Applications
 
-* Unity-based AR/VR application testing
+* image processing pipeline validation
 * 3D rendering validation
 * sensor and device interaction testing
 * performance validation for real-time graphics
-
-### Image Vision Systems
-
-* image processing pipeline validation
-* vision inference API testing
-* dataset validation
-* model output verification
+* Unity-based AR/VR application testing
 
 ### Video Streaming Platforms
 
@@ -139,11 +133,10 @@ qa-engineering-portfolio
 │   └─ test-frameworks
 │
 ├─ domains
-│   ├─ ai-mlops-quality
-│   ├─ ar-vr-quality
-│   ├─ image-vision-quality
-│   ├─ video-streaming-quality
-│   └─ ecommerce-quality
+│   ├─ ai-mlops
+│   ├─ Computer Vision & 3D Applications
+│   ├─ video-streaming
+│   └─ ecommerce
 │
 └─ quality-engineering
     ├─ test-strategy
