@@ -10,46 +10,6 @@ Sensitive implementation details and internal system architectures are intention
 
 ---
 
-# Engineering Domains
-
-Experience across multiple product and technology domains.
-
-### AI / MLOps Platforms
-
-* AI inference API validation
-* data pipeline verification
-* containerized model deployment validation
-* Kubernetes-based model serving verification
-
-### AR / VR & 3D Applications
-
-* Unity-based AR/VR application testing
-* 3D rendering validation
-* sensor and device interaction testing
-* performance validation for real-time graphics
-
-### Image Vision Systems
-
-* image processing pipeline validation
-* vision inference API testing
-* dataset validation
-* model output verification
-
-### Video Streaming Platforms
-
-* streaming pipeline testing
-* encoding / decoding validation
-* playback quality verification
-* network condition testing
-
-### E-Commerce Platforms
-
-* checkout flow validation
-* payment API testing
-* regression testing for large-scale releases
-
----
-
 # Case Studies
 
 Simplified case studies based on real-world quality engineering work.
@@ -95,6 +55,46 @@ Automation practices used for validating system behavior.
 
 ---
 
+# Engineering Domains
+
+Experience across multiple product and technology domains.
+
+### AI / MLOps Platforms
+
+* AI inference API validation
+* data pipeline verification
+* containerized model deployment validation
+* Kubernetes-based model serving verification
+
+### AR / VR & 3D Applications
+
+* Unity-based AR/VR application testing
+* 3D rendering validation
+* sensor and device interaction testing
+* performance validation for real-time graphics
+
+### Image Vision Systems
+
+* image processing pipeline validation
+* vision inference API testing
+* dataset validation
+* model output verification
+
+### Video Streaming Platforms
+
+* streaming pipeline testing
+* encoding / decoding validation
+* playback quality verification
+* network condition testing
+
+### E-Commerce Platforms
+
+* checkout flow validation
+* payment API testing
+* regression testing for large-scale releases
+
+---
+
 # Quality Engineering
 
 Quality engineering approaches used to reduce release risk and maintain product reliability.
@@ -132,18 +132,18 @@ qa-engineering-portfolio
 │   ├─ test-automation-framework-design
 │   └─ ci-cd-pipeline-validation
 │
+├─ automation
+│   ├─ ui-test-automation
+│   ├─ api-test-automation
+│   ├─ ci-cd-testing
+│   └─ test-frameworks
+│
 ├─ domains
 │   ├─ ai-mlops-quality
 │   ├─ ar-vr-quality
 │   ├─ image-vision-quality
 │   ├─ video-streaming-quality
 │   └─ ecommerce-quality
-│
-├─ automation
-│   ├─ ui-test-automation
-│   ├─ api-test-automation
-│   ├─ ci-cd-testing
-│   └─ test-frameworks
 │
 └─ quality-engineering
     ├─ test-strategy
