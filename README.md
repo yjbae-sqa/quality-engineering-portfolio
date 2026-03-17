@@ -32,23 +32,17 @@ This repository is organized into four main areas.
 
 The validation approach used across projects typically follows this workflow:
 
-```
-System Change
-      │
-      ▼
-Risk Identification
-      │
-      ▼
-Test Strategy Definition
-      │
-      ▼
-Automated / Manual Validation
-      │
-      ▼
-Quality Metrics Review
-      │
-      ▼
-Release Decision
+```mermaid
+flowchart TD
+    A[System Change]
+    B[Risk Identification]
+    C[Test Strategy Definition]
+    D[Test Execution & Validation <br/>#40;Automation / Smoke / API#41;]
+    E[CI/CD Test Execution <br/>#40;Docker / Pipeline#41;]
+    F[Quality Metrics Review <br/>#40;Coverage / Failure Rate#41;]
+    G[Release Decision]
+
+    A --> B --> C --> D --> E --> F --> G
 ```
 
 This approach helps ensure that testing activities focus on **high-risk areas and critical system behaviors**.
